@@ -2,7 +2,7 @@ services:
   postgres:
     image: postgres:16-alpine
     ports:
-      - 5432:5432 # postgresql://myuser:mysecret@127.0.0.1:5432/supereffectivedb?search_path=public
+      - 45432:5432 # postgresql://myuser:mysecret@127.0.0.1:5432/supereffectivedb?search_path=public
     volumes:
       - './.local/postgres:/var/lib/postgresql/data'
       - './.local/postgres-dumps:/usr/src/data-dumps'
@@ -13,7 +13,7 @@ services:
   pgadmin:
     image: dpage/pgadmin4
     ports:
-      - 5480:80 # http://localhost:5480
+      - 45433:80 # http://localhost:5480
     environment:
       - PGADMIN_DEFAULT_EMAIL=myuser@example.com # login for the UI
       - PGADMIN_DEFAULT_PASSWORD=mysecret
