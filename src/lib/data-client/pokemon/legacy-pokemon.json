@@ -53240,7 +53240,7 @@
       "swsh",
       "home"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -67058,7 +67058,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "vivillon",
     "forms": null,
@@ -72482,7 +72482,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [
@@ -72540,7 +72540,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "hoopa",
     "forms": null,
@@ -72597,7 +72597,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -78398,7 +78398,7 @@
       "swsh",
       "home"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -78455,7 +78455,7 @@
       "swsh",
       "home"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -79235,7 +79235,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [
@@ -79293,7 +79293,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "magearna",
     "forms": null,
@@ -79347,7 +79347,7 @@
       "swsh",
       "home"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -79770,7 +79770,7 @@
       "home"
     ],
     "storableIn": [],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "melmetal",
     "forms": null,
@@ -88909,7 +88909,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -88961,7 +88961,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [
@@ -89017,7 +89017,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "urshifu",
     "forms": null,
@@ -89065,7 +89065,7 @@
     "versionExclusiveIn": [],
     "eventOnlyIn": [],
     "storableIn": [],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "urshifu",
     "forms": null,
@@ -89113,7 +89113,7 @@
     "versionExclusiveIn": [],
     "eventOnlyIn": [],
     "storableIn": [],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "urshifu",
     "forms": null,
@@ -89166,7 +89166,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [
@@ -89380,7 +89380,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -89432,7 +89432,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -89484,7 +89484,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [
@@ -89538,7 +89538,7 @@
       "swsh",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "calyrex",
     "forms": null,
@@ -89589,7 +89589,7 @@
       "swsh",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "calyrex",
     "forms": null,
@@ -89804,7 +89804,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "ursaluna",
     "forms": null,
@@ -95504,7 +95504,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "gimmighoul",
     "forms": null,
@@ -95608,7 +95608,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -95659,7 +95659,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -95710,7 +95710,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -95761,7 +95761,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -95914,7 +95914,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -95965,7 +95965,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -96018,7 +96018,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -96071,7 +96071,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -96379,7 +96379,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -96430,7 +96430,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -96481,7 +96481,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -96532,7 +96532,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [
@@ -96586,7 +96586,7 @@
     "storableIn": [
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "ogerpon",
     "forms": null,
@@ -96636,7 +96636,7 @@
     "storableIn": [
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "ogerpon",
     "forms": null,
@@ -96686,7 +96686,7 @@
     "storableIn": [
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "ogerpon",
     "forms": null,
@@ -96839,7 +96839,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -96890,7 +96890,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -96941,7 +96941,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -96992,7 +96992,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -97043,7 +97043,7 @@
       "home",
       "sv"
     ],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
@@ -97091,7 +97091,7 @@
     "versionExclusiveIn": [],
     "eventOnlyIn": [],
     "storableIn": [],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "terapagos",
     "forms": null,
@@ -97139,7 +97139,7 @@
     "versionExclusiveIn": [],
     "eventOnlyIn": [],
     "storableIn": [],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": "terapagos",
     "forms": null,
@@ -97185,7 +97185,7 @@
     "versionExclusiveIn": [],
     "eventOnlyIn": [],
     "storableIn": [],
-    "shinyReleased": false,
+    "shinyReleased": true,
     "shinyBase": null,
     "baseSpecies": null,
     "forms": [],
