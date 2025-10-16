@@ -2,7 +2,7 @@ import { isDevelopmentEnv, isProductionEnv, isServerSide } from './env'
 
 export function getBaseUrl(): string {
   if (isProductionEnv()) {
-    return 'https://classic.pokepc.net'
+    return process.env.APP_URL ?? 'https://classic.pokepc.net'
   }
 
   // get absolute url in client/browser
