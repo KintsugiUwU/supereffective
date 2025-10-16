@@ -11,8 +11,12 @@ class RootDocument extends Document {
           <script
             defer
             data-domain="classic.pokepc.net"
-            data-website-id="6eba0ad0-9d7b-47e7-89a3-dbdc08a8db69"
-            src="https://aw.itsjavi.com/s/uma.js"
+            src="https://plausible.services.eonpixel.app/js/script.pageview-props.tagged-events.js"
+          />
+          <script
+            defer
+            src="https://umami.services.eonpixel.app/script.js"
+            data-website-id="9e305fb4-67c0-4357-b0d3-f94cc351137e"
           />
         </Head>
         <body>
