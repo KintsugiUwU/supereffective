@@ -4,10 +4,8 @@ import { useEffect, useRef, useState } from 'react'
 
 import PkImgFile from '@/features/livingdex/components/PkImgFile'
 import Button from '@/lib/components/Button'
-import { GameLabel } from '@/lib/components/GameLabel'
 import { ExternLink } from '@/lib/components/Links'
 import { TextInput } from '@/lib/components/forms/TextInput'
-import { getGameSetById } from '@/lib/data-client/game-sets'
 import { PokemonEntry, PokemonEntrySearchIndex } from '@/lib/data-client/pokemon/types'
 import { cn } from '@/lib/utils'
 import { classNameIf, classNames } from '@/lib/utils/deprecated'
@@ -91,68 +89,32 @@ export const PokemonInfoPanel = ({
         </div>
         <div className={css.types}>
           {pokemon.type1 && (
-            <span
+            <button
+              data-kind="type-btn"
               onClick={() => handleTypeClick(pokemon.type1!)}
               className={css.tooltip}
               data-tooltip={titleize(pokemon.type1)}
               data-flow="bottom"
             >
               <TypeIcon className={css.typeIcon} typeId={pokemon.type1 as any} size="sm" theme="light" colored filled />
-            </span>
+            </button>
           )}
           {pokemon.type2 && (
-            <span
+            <button
+              data-kind="type-btn"
               onClick={() => handleTypeClick(pokemon.type2!)}
               className={css.tooltip}
               data-tooltip={titleize(pokemon.type2)}
               data-flow="bottom"
             >
               <TypeIcon className={css.typeIcon} typeId={pokemon.type2 as any} size="sm" theme="light" colored filled />
-            </span>
+            </button>
           )}
         </div>
         <section>
-          <div className={css.title}>Obtainable In</div>
-          <div className={css.gameIcons}>
-            {pokemon.location.obtainableIn.map((gameSetId: string) => (
-              <div
-                key={gameSetId}
-                className={css.gameset}
-                data-tooltip={getGameSetById(gameSetId).name}
-                data-flow="bottom"
-              >
-                <GameLabel gameId={gameSetId} rounded size="sm" />
-              </div>
-            ))}
-            {pokemon.location.eventOnlyIn.map((gameSetId: string) => (
-              <div
-                key={gameSetId}
-                className={css.gameset}
-                data-tooltip={getGameSetById(gameSetId).name + ' (Event Only)'}
-                data-flow="bottom"
-              >
-                <GameLabel gameId={gameSetId} rounded size="xs" />
-                <span className={`icon-pkg-pokeball-outlined`} title="Event Only"></span>
-              </div>
-            ))}
-            {pokemon.location.obtainableIn.length + pokemon.location.eventOnlyIn.length === 0 && <b>---</b>}
-          </div>
-        </section>
-        <section>
-          <div className={css.title}>Storable In</div>
-          <div className={css.gameIcons}>
-            {pokemon.location.storableIn.map((gameSetId: string) => (
-              <div
-                key={gameSetId}
-                className={css.gameset}
-                data-tooltip={getGameSetById(gameSetId).name}
-                data-flow="bottom"
-              >
-                <GameLabel gameId={gameSetId} rounded size="xs" />
-              </div>
-            ))}
-            {pokemon.location.storableIn.length === 0 && <b>---</b>}
-          </div>
+          <a href={`https://pokepc.net/pokemon/${pokemon.id}?ref=supereffective`} target="_blank" rel="noreferrer">
+            View data on PokéPC
+          </a>
         </section>
         <section>
           <div className={css.title}>External Links</div>
@@ -180,7 +142,6 @@ export const PokemonInfoPanel = ({
 }
 
 interface PokedexState {
-  infoPanelOpen: boolean
   selectedPkmId: string | null | undefined
   search?: string | null
   showForms: boolean
@@ -209,13 +170,13 @@ export const Pokedex = ({
 
   const loadMoreRef = useRef(null)
   const [state, setState] = useState<PokedexState>({
-    infoPanelOpen: false,
     selectedPkmId: null,
     search: null,
     showForms: showForms === true,
     currentPage: 0,
     perPage: initialPerpage,
   })
+  const [infoPanelOpen, setInfoPanelOpen] = useState(false)
   const pokemonList = Array.from(pokemon.values())
 
   const handleLoadMore = (): void => {
@@ -280,16 +241,13 @@ export const Pokedex = ({
   const selectPokemon = (pkmId: string): void => {
     setState({
       ...state,
-      infoPanelOpen: true,
       selectedPkmId: pkmId,
     })
+    setInfoPanelOpen(true)
   }
 
   const handleClose = (): void => {
-    setState({
-      ...state,
-      infoPanelOpen: false,
-    })
+    setInfoPanelOpen(false)
   }
 
   const handleSearchInput = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -304,11 +262,11 @@ export const Pokedex = ({
   const searchByType = (type: string): void => {
     setState({
       ...state,
-      infoPanelOpen: false,
       search: 'type:' + type,
       currentPage: 0,
       perPage: initialPerpage,
     })
+    setInfoPanelOpen(false)
   }
 
   let shownSpeciesCount = 0
@@ -359,6 +317,10 @@ export const Pokedex = ({
           selectPokemon(pkm.id)
           e.stopPropagation()
         }}
+        // onBlur={(e) => {
+        //   setInfoPanelOpen(false)
+        //   e.stopPropagation()
+        // }}
       >
         <PkImgFile nid={pkm.nid} title={pkm.name} shiny={showShiny === true} className={css.pkimg} variant="3d" />
         {pkm.form.isFemaleForm && <span className={'female-symbol ' + css.femaleIcon}>{'♀'}</span>}
@@ -438,7 +400,7 @@ export const Pokedex = ({
           {loadMoreBtn}
         </div>
         <PokemonInfoPanel
-          isOpen={state.infoPanelOpen}
+          isOpen={infoPanelOpen}
           showShiny={showShiny}
           onTypeBtnClick={useSearch ? searchByType : undefined}
           onCloseBtnClick={handleClose}

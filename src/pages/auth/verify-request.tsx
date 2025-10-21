@@ -24,7 +24,7 @@ export default function Page() {
     return (
       <div className={'page-container'}>
         <PageMeta
-          metaTitle={'Confirm Sign In - Supereffective.gg'}
+          metaTitle={'Confirm Sign In - PokéPC Classic'}
           metaDescription={''}
           robots={'noindex, nofollow'}
           canonicalUrl={abs_url('/auth/verify-request')}

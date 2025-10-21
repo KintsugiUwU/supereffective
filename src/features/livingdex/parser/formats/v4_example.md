@@ -3,7 +3,7 @@
   "$id": "0KWyiHb83ASeezpAX1oy",
   "format": "v4",
   "gameId": "sv-v",
-  "title": "Pokémon Scarlet - Living Dex",
+  "title": "Pokémon Scarlet - Livingdex",
   "ownerId": "supereffective",
   "creationTime": "2023-01-25T18:29:25+00:00",
   "lastUpdateTime": "2023-01-25T18:29:25+00:00"

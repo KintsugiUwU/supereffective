@@ -34,7 +34,7 @@ export default function Page({ csrfToken }: { csrfToken: string | null }) {
     <>
       <div className={'page-container'}>
         <PageMeta
-          metaTitle={'Verify Email - Supereffective.gg'}
+          metaTitle={'Verify Email - PokéPC Classic'}
           metaDescription={''}
           robots={'noindex, nofollow'}
           canonicalUrl={abs_url('/auth/verify-email')}

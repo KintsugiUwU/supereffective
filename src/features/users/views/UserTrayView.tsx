@@ -1,6 +1,7 @@
 import { Routes } from '@/config/routes'
 import { useSession } from '@/features/users/auth/hooks/useSession'
 import { SiteLink } from '@/lib/components/Links'
+import { LogInIcon, UserIcon } from 'lucide-react'
 
 type UserTrayViewProps = {
   activeClass?: string
@@ -25,7 +26,7 @@ export function UserTrayView({ activeClass, returnUrl, ...rest }: UserTrayViewPr
           minWidth: '114px',
         }}
       >
-        <i className="icon-user" style={{ marginRight: '0.5rem' }} /> Profile
+        <UserIcon width={24} height={24} style={{ marginRight: '0.5rem' }} /> Profile
       </a>
     )
   }
@@ -44,6 +45,7 @@ export function UserTrayView({ activeClass, returnUrl, ...rest }: UserTrayViewPr
           minWidth: '114px',
         }}
       >
+        <LogInIcon width={24} height={24} />
         Sign In
       </SiteLink>
     )

@@ -6,10 +6,10 @@ import { useState } from 'react'
 import config from '@/config'
 import { UserTrayView } from '@/features/users/views/UserTrayView'
 
-import { HandHeartIcon, LightbulbIcon } from 'lucide-react'
-import CannyFeedbackLinkV3 from '../CannyFeedbackLinkV3'
+import { HandHeartIcon } from 'lucide-react'
 import { SiteLink } from '../Links'
-import { DiscordLinkIcon, TwitterLinkIcon } from '../icons/brand-icons'
+import { PokedexIcon } from '../icons/icons'
+import { BlueskyLinkIcon, DiscordLinkIcon } from '../icons/icons-links'
 import styles from './MainHeader.module.css'
 
 export default function MainHeader() {
@@ -35,15 +35,12 @@ export default function MainHeader() {
           </Link>
 
           <nav tabIndex={0} className={styles.menu + (navbarOpen ? ' ' + styles.open : '')}>
-            <SiteLink activeClass={styles.active} href="/" tabIndex={1}>
-              Home
-            </SiteLink>
             <SiteLink activeClass={styles.active} tabIndex={1} href="/apps/pokedex">
-              <i className={'icon-books margin-r icon--2x'} />
+              <PokedexIcon width={24} height={24} style={{ marginRight: '0.5rem' }} />
               Pokédex
             </SiteLink>
             <SiteLink activeClass={styles.active} tabIndex={2} href="/apps/livingdex">
-              <i className={'icon-pkg-box margin-r icon--2x'} /> LivingDexes
+              <i className={'icon-pkg-box margin-r icon--2x'} /> Livingdex
             </SiteLink>
             <a title="PokéPC - SuperEffective's successor" tabIndex={2} href="https://pokepc.net/?ref=supereffective">
               <i style={{ color: 'cyan', marginRight: '4px' }} className={'icon-pkg-shiny icon--2x'} /> PokéPC{' '}
@@ -52,15 +49,9 @@ export default function MainHeader() {
             <DiscordLinkIcon className={styles.brandLink} tabIndex={4}>
               <span className="mobile-only">Discord</span>
             </DiscordLinkIcon>
-            <TwitterLinkIcon className={styles.brandLink} tabIndex={3}>
-              <span className="mobile-only">Threads.net</span>
-            </TwitterLinkIcon>
-            <CannyFeedbackLinkV3>
-              <i title="Roadmap and Feedback">
-                <LightbulbIcon width={22} height={22} />
-              </i>
-              <span className="mobile-only">Feedback and Roadmap</span>
-            </CannyFeedbackLinkV3>
+            <BlueskyLinkIcon className={styles.brandLink} tabIndex={3}>
+              <span className="mobile-only">Bluesky</span>
+            </BlueskyLinkIcon>
             <SiteLink
               // className={styles.donateBtn}
               activeClass={styles.active}
@@ -69,7 +60,7 @@ export default function MainHeader() {
               title={'Donate to help this site'}
             >
               <i title="Support Us / Donations">
-                <HandHeartIcon width={22} height={22} />
+                <HandHeartIcon width={24} height={24} />
               </i>
               <span className={'mobile-only'}>Support Us</span>
             </SiteLink>

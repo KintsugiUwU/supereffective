@@ -162,6 +162,9 @@
   /* teal2: 37aea5 */
   --color-box-header: var(--color-teal-2);
   --color-box-body: var(--color-teal-4);
+
+  /* CHAMPIONS */
+  --color-champions-lime: #c0e901;
 }
 
 .bg-blueberry-dark {

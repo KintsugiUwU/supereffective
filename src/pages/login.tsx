@@ -9,7 +9,7 @@ const Page = ({ csrfToken }: { csrfToken: string | null }) => {
   return (
     <div className={'page-container'}>
       <PageMeta
-        metaTitle={'Sign In - Supereffective.gg'}
+        metaTitle={'Sign In - PokéPC Classic'}
         metaDescription={''}
         robots={'noindex, nofollow'}
         canonicalUrl={abs_url('/login')}

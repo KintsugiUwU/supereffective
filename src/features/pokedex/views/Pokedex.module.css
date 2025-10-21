@@ -20,7 +20,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
-  gap: 0.5rem;
+  gap: 0.25rem;
 }
 
 @media (max-width: 400px) {
@@ -35,7 +35,7 @@
   cursor: pointer;
   text-align: center;
   border-radius: 100%;
-  padding: 5px;
+  padding: 0;
   vertical-align: middle;
   transition: transform 0.2s ease-in-out;
 }
@@ -44,7 +44,7 @@
 .cell:focus-visible,
 .cell:active {
   outline: none;
-  border: 2px solid var(--color-blueberry-medium);
+  border: 1px solid var(--color-champions-lime);
   background: var(--color-blueberry-dark);
   transform: scale(1.15);
   z-index: 2;
@@ -75,6 +75,7 @@
     rgba(255, 255, 255, 0) 70%,
     rgba(255, 255, 255, 0) 100%
   );
+  padding: 0.25rem;
 }
 
 .label {
@@ -114,14 +115,8 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-right: 1rem;
-  background: var(--color-blueberry-dark-alpha80);
-  color: #fff;
   z-index: 9999;
-  border: 1px solid var(--color-blueberry-darker);
-  border-radius: 8px;
-  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
   transform: translateX(150%);
-  backdrop-filter: blur(20px);
 }
 
 @media (max-width: 600px) {
@@ -131,15 +126,21 @@
 }
 
 .infoPanel .inner {
+  position: relative;
+  background: var(--color-blueberry-dark-alpha80);
+  color: #fff;
+  border: 1px solid var(--color-blueberry-darker);
+  border-radius: 8px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(15px);
   text-align: center;
   overflow-x: visible;
   overflow-y: auto;
-  background: var(--color-blueberry-dark-alpha50);
-  position: absolute;
+  /* position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
-  left: 0;
+  left: 0; */
 }
 
 .infoPanel .pkimg,

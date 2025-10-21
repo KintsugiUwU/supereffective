@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <div className={'page-container'}>
       <PageMeta
-        metaTitle={'Profile - Supereffective'}
+        metaTitle={'Profile - PokéPC Classic'}
         metaDescription={''}
         robots={'noindex, nofollow'}
         canonicalUrl={abs_url('/profile')}

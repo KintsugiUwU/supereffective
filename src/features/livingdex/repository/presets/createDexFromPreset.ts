@@ -39,7 +39,7 @@ export const createDexFromPreset = (gameId: string, preset: PresetDex, userId: s
     createdAt: timestamp,
     updatedAt: timestamp,
 
-    title: game.name + ' - Living Dex',
+    title: game.name + ' - Livingdex',
     schemaVersion: DEX_SCHEMA_VERSION,
     gameId: game.id,
     gameSetId: game.setId,

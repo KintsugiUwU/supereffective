@@ -36,6 +36,11 @@
   color: #000;
 }
 
+.ctrl.accent {
+  background: var(--color-blueberry-accent);
+  color: #000;
+}
+
 .ctrl:active {
   transition: all;
   transition-duration: 200ms;

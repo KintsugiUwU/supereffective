@@ -16,15 +16,15 @@ const NationalLivingDexView = () => {
   const homePresets = getPresetsForGame('home')
 
   if (!dex) {
-    return <LoadingBanner bannerContent={'Unexpected error. Cannot load the Living Pokédex. Please let us know.'} />
+    return <LoadingBanner bannerContent={'Unexpected error. Cannot load the Livingdex. Please let us know.'} />
   }
 
   return (
     <div className={'page-container dex-game dex-game-home'} style={{ maxWidth: 'none' }}>
       <PageMeta
-        metaTitle={'Full Living Pokédex - All Regions | Pokédex Tracker Online Tool - SuperEffective.gg'}
+        metaTitle={'Full Living Pokédex - All Regions | Pokédex Tracker Online Tool - PokéPC Classic'}
         metaDescription={
-          'Full Living Pokédex visual guide. Overview of all Pokémon species and forms that ' +
+          'A full Living Pokédex visual guide. Overview of all Pokémon species and forms that ' +
           'are currently storable in Pokémon HOME.'
         }
         robots={'index, follow'}

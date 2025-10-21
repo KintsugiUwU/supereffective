@@ -122,7 +122,7 @@ const MissingPokemonView = () => {
   return (
     <div className={'page-container'} style={{ maxWidth: 'none' }}>
       <PageMeta
-        metaTitle={'Missing Pokémon - Living Pokédex Tracker - Supereffective.gg'}
+        metaTitle={'Missing Pokémon - Livingdex Tracker - PokéPC Classic'}
         metaDescription={''}
         robots={'noindex,nofollow'}
         canonicalUrl={abs_url('/apps/livingdex/missing')}
@@ -137,9 +137,7 @@ const MissingPokemonView = () => {
           <h2 className="main-title-outlined">
             <i className="icon-pkg-pokeball" /> Missing Pokémon
           </h2>
-          <p className={styles.heroContent}>
-            List of Pokémon that are not yet stored in each of your Living Pokédexes.
-          </p>
+          <p className={styles.heroContent}>List of Pokémon that are not yet stored in each of your Livingdexes.</p>
         </div>
         {missingPokemonByGame.map((missingPokemon) => {
           if (!missingPokemon.game.setId) {

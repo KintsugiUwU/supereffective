@@ -61,7 +61,7 @@ export function LoginView({ csrfToken }: { csrfToken: string | null }): JSX.Elem
         When you sign in, you'll be able to save your{' '}
         <b>
           <i className={'icon-pkg-box-home'} />
-          Living Pokédex
+          Livingdex
         </b>{' '}
         progress and use all other upcoming features of the website.
       </p>

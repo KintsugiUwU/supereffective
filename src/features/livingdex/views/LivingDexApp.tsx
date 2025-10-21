@@ -31,12 +31,12 @@ import { getGameSetByGameId } from '@/lib/data-client/game-sets'
 import { useScrollToLocation } from '@/lib/hooks/useScrollToLocation'
 import { slugify } from '@/lib/utils/strings'
 
+import appConfig from '@/config'
 import { PkBoxGroup } from '../components/pkm-box/PkBoxGroup'
 import { PkBoxGroupShinyMixed } from '../components/pkm-box/PkBoxGroupShinyMixed'
 import { MarkType, SelectMode, ViewMode } from '../components/pkm-box/pkBoxTypes'
 import { LivingDexContext } from '../state/LivingDexContext'
 import styles from './LivingDexApp.module.css'
-import appConfig from '@/config'
 
 type ActionTool = MarkType | 'all-marks' | 'no-marks' | null // | 'move' | 'delete'
 type SyncState = 'changed' | 'synced'
@@ -379,7 +379,7 @@ export default function LivingDexApp({ loadedDex, presets, onSave }: LivingDexAp
     //       const data: DeserializedLivingDexDoc = JSON.parse(result)
     //       data.$id = dex.id
     //       if (data.gameId !== dex.gameId) {
-    //         const errMsg = `The file you selected is not a valid Living Dex file for game '${dex.gameId}'.`
+    //         const errMsg = `The file you selected is not a valid Livingdex file for game '${dex.gameId}'.`
     //         alert('Error: ' + errMsg)
     //         throw new Error(errMsg)
     //       }
@@ -401,7 +401,7 @@ export default function LivingDexApp({ loadedDex, presets, onSave }: LivingDexAp
     //         content: (
     //           <div>
     //             <p>
-    //               The Living Dex has been imported successfully. You can now continue editing it.
+    //               The Livingdex has been imported successfully. You can now continue editing it.
     //             </p>
     //             <p>
     //               <strong>Nothing will be saved until you do some change.</strong>
@@ -413,7 +413,7 @@ export default function LivingDexApp({ loadedDex, presets, onSave }: LivingDexAp
     //         prevState: { dex, preset: preset as any },
     //       })
     //     } catch (e) {
-    //       alert('The file you selected is not a valid Living Dex JSON file.')
+    //       alert('The file you selected is not a valid Livingdex JSON file.')
     //       throw e
     //     }
     //   }
@@ -865,7 +865,7 @@ export default function LivingDexApp({ loadedDex, presets, onSave }: LivingDexAp
           <div className={'modal-content-wrapper text-center'}>
             <div className={'modal-dialog'}>
               <div className={'modal-dialog-message'}>
-                Are you sure you want to remove this Living Dex and all its progress?
+                Are you sure you want to remove this Livingdex and all its progress?
                 <br /> This operation cannot be undone.
               </div>
               <div className={'modal-dialog-buttons'}>

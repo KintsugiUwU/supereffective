@@ -11,7 +11,7 @@ const dummyMarkdown = `
   "$id": "0KWyiHb83ASeezpAX1oy",
   "format": "v4",
   "gameId": "sv-v",
-  "title": "Pokémon Scarlet - Living Dex",
+  "title": "Pokémon Scarlet - Livingdex",
   "ownerId": "supereffective",
   "creationTime": "2023-01-25T18:29:25+00:00",
   "lastUpdateTime": "2023-01-25T18:29:25+00:00"
@@ -36,7 +36,7 @@ const dummyMarkdownMeta: LivingDexDocMeta = {
   $id: '0KWyiHb83ASeezpAX1oy',
   format: 'v4',
   gameId: 'sv-v',
-  title: 'Pokémon Scarlet - Living Dex',
+  title: 'Pokémon Scarlet - Livingdex',
   ownerId: 'supereffective',
   creationTime: '2023-01-25T18:29:25+00:00',
   lastUpdateTime: '2023-01-25T18:29:25+00:00',
@@ -177,7 +177,7 @@ describe('serializeLivingDex', () => {
     const expectedResult = `# LivingDex
 
 \`\`\`json
-{"$id":"0KWyiHb83ASeezpAX1oy","format":"v4","gameId":"sv-v","title":"Pokémon Scarlet - Living Dex","ownerId":"supereffective","creationTime":"2023-01-25T18:29:25+00:00","lastUpdateTime":"2023-01-25T18:29:25+00:00"}
+{"$id":"0KWyiHb83ASeezpAX1oy","format":"v4","gameId":"sv-v","title":"Pokémon Scarlet - Livingdex","ownerId":"supereffective","creationTime":"2023-01-25T18:29:25+00:00","lastUpdateTime":"2023-01-25T18:29:25+00:00"}
 \`\`\`
 
 ## Format
@@ -215,7 +215,7 @@ describe('serializeLivingDex', () => {
     const result = serializeLivingDex(dex, getLivingDexFormat('v4'), false)
 
     const expectedResult = `\`\`\`json
-{"$id":"0KWyiHb83ASeezpAX1oy","format":"v4","gameId":"sv-v","title":"Pokémon Scarlet - Living Dex","ownerId":"supereffective","creationTime":"2023-01-25T18:29:25+00:00","lastUpdateTime":"2023-01-25T18:29:25+00:00"}
+{"$id":"0KWyiHb83ASeezpAX1oy","format":"v4","gameId":"sv-v","title":"Pokémon Scarlet - Livingdex","ownerId":"supereffective","creationTime":"2023-01-25T18:29:25+00:00","lastUpdateTime":"2023-01-25T18:29:25+00:00"}
 \`\`\`
 
 ## Boxes

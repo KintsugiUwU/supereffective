@@ -9,7 +9,7 @@ const appConfig = {
   dev: isDevelopmentEnv(),
   baseUrl: getBaseUrl(),
   version: {
-    num: '3.10.1',
+    num: '3.11.0',
   },
   themeColor: '#1a1d1f',
   texts: {
@@ -17,19 +17,19 @@ const appConfig = {
     standaloneTitle: 'SuperEffective',
     defaultMetaTitle: 'SuperEffective - Your Pokémon Gaming Companion',
     defaultMetaDescription:
-      'Supereffective is a new Pokémon website with news and various tools to assist you ' +
+      'PokéPC Classic is a new Pokémon website with news and various tools to assist you ' +
       'in your journey as a trainer. Follow us to stay up-to-date.',
   },
   links: {
-    twitter: 'https://www.threads.net/@supereffective.gg',
+    bluesky: 'https://bsky.app/profile/pokepc.net',
     patreon: 'https://www.patreon.com/supereffective',
     github: 'https://github.com/itsjavi',
     github_org: 'https://github.com/supeffective',
-    github_site: 'https://github.com/itsjavi/supereffective.gg',
-    issue_report: 'https://github.com/itsjavi/supereffective.gg/issues',
+    github_site: 'https://github.com/itsjavi/supereffective',
+    issue_report: 'https://github.com/itsjavi/supereffective/issues',
     roadmap: 'https://supereffective.canny.io',
     feedback: 'https://supereffective.canny.io/feature-requests',
-    changelog: 'https://supereffective.canny.io/changelog',
+    changelog: 'https://supereffective.canny.io',
     discord: 'https://discord.gg/3fRXQFtrkN',
     paypal_donate: 'https://www.paypal.me/itsjavidotcom/10',
     legacy_account_recovery_form: 'https://forms.gle/HxnV3qCs1UWJn7Tc6',

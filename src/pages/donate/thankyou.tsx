@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <div className={'page-container'} style={{ maxWidth: 'none' }}>
       <PageMeta
-        metaTitle={'Thank you! - Supereffective.gg'}
+        metaTitle={'Thank you! - PokéPC Classic'}
         metaDescription={''}
         robots={'noindex,nofollow'}
         canonicalUrl={abs_url('/donate')}

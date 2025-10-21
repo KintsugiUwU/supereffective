@@ -1,8 +1,8 @@
 {
   "name": "supereffective-website",
-  "version": "3.10.1",
+  "version": "3.11.0",
   "private": true,
-  "repository": "git@github.com:itsjavi/supereffective.gg.git",
+  "repository": "git@github.com:itsjavi/supereffective.git",
   "license": "MIT",
   "author": "Javi Aguilar https://itsjavi.com",
   "scripts": {

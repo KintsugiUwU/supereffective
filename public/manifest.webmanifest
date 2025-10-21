@@ -2,7 +2,7 @@
   "id": "gg.supereffective.app",
   "name": "SuperEffective",
   "short_name": "SuperEffective",
-  "description": "The most complete Living Dex tracker. Your Pokémon game companion.",
+  "description": "The most complete Livingdex tracker. Your Pokémon game companion.",
   "theme_color": "#08101B",
   "background_color": "#08101B",
   "start_url": "./",

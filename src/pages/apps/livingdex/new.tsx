@@ -118,7 +118,7 @@ const NewDexView = ({ selectedGame, selectedPreset, limits }: PageProps) => {
   return (
     <div style={{ maxWidth: 'none' }} className={containerClasses}>
       <PageMeta
-        metaTitle={'Living Dex - New'}
+        metaTitle={'Livingdex - New'}
         metaDescription={''}
         robots={'noindex, nofollow'}
         canonicalUrl={abs_url('/apps/livingdex/new')}

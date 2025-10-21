@@ -6,7 +6,7 @@
   height: var(--menu-height);
   z-index: 110;
   white-space: nowrap;
-  --pattern-height: 6px;
+  --pattern-height: 4px;
   background: rgba(var(--color-blueberry-darker-rgb), 0.6);
   /* background: url('/images/patterns2/crystals5.png?s') top left;
   background-size: 500px 200px; */
@@ -34,7 +34,8 @@
   left: 0;
   width: 100%;
   height: var(--pattern-height);
-  background: url('/images/patterns/crystals-top.png?s') top left;
+  background: var(--color-champions-lime);
+  /* background: url('/images/patterns/crystals-top.png?s') top left; */
   opacity: 0.8;
   background-size: cover;
   /* background-size: 200px 100px; */

@@ -38,7 +38,7 @@ const AuthenticatedDashboardContainer = ({ limits }: { limits: LivingDexResolved
   return (
     <div className={'page-container dex-count-' + dexes.length} style={{ paddingBlock: 0 }}>
       <div className="inner-blueberry inner-container">
-        <h2 className={'main-title-outlined text-center'}>Living Dex Tracker</h2>
+        <h2 className={'main-title-outlined text-center'}>Livingdex Tracker</h2>
         <div className="text-center" style={{ margin: '0 0 2rem 0', opacity: 1 }}>
           <GameCardList variant={listVariant} dexes={dexes} linkable />
         </div>

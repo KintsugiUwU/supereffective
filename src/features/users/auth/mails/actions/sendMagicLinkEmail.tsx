@@ -29,8 +29,8 @@ const sendMagicLinkEmail = async (params: SendVerificationRequestParams) => {
   const middlePageUrl = buildLoginMiddlePageUrl(loginUrl)
   const message: EmailMessage = {
     to: identifier,
-    // from: 'noreply@supereffective.gg',
-    subject: `Sign in to SuperEffective.gg`,
+    // from: 'noreply@pokepc.net',
+    subject: `Sign in to PokéPC Classic`,
     body: {
       text: renderText(middlePageUrl, token),
       html: renderHtml(middlePageUrl, token),

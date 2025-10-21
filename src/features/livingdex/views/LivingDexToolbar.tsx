@@ -285,7 +285,7 @@ export default function LivingDexToolbar({ loadedDex, presets, onSave }: LivingD
           data.$id = dex.id
 
           if (data.gameId !== dex.gameId) {
-            const errMsg = `The file you selected is not a valid Living Dex file for game '${dex.gameId}'.`
+            const errMsg = `The file you selected is not a valid Livingdex file for game '${dex.gameId}'.`
             alert('Error: ' + errMsg)
             throw new Error(errMsg)
           }
@@ -307,7 +307,7 @@ export default function LivingDexToolbar({ loadedDex, presets, onSave }: LivingD
             title: 'Import successful',
             content: (
               <div>
-                <p>The Living Dex has been imported successfully. You can now continue editing it.</p>
+                <p>The Livingdex has been imported successfully. You can now continue editing it.</p>
                 <p>
                   <strong>Nothing will be saved until you do some change.</strong>
                 </p>
@@ -318,7 +318,7 @@ export default function LivingDexToolbar({ loadedDex, presets, onSave }: LivingD
             prevState: { dex, preset: preset as any },
           })
         } catch (e) {
-          alert('The file you selected is not a valid Living Dex JSON file.')
+          alert('The file you selected is not a valid Livingdex JSON file.')
           throw e
         }
       }
@@ -783,7 +783,7 @@ export default function LivingDexToolbar({ loadedDex, presets, onSave }: LivingD
           <div className={'modal-content-wrapper text-center'}>
             <div className={'modal-dialog'}>
               <div className={'modal-dialog-message'}>
-                Are you sure you want to remove this Living Dex and all its progress?
+                Are you sure you want to remove this Livingdex and all its progress?
                 <br /> This operation cannot be undone.
               </div>
               <div className={'modal-dialog-buttons'}>

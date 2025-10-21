@@ -2,12 +2,11 @@
 
 [Homepage](https://classic.pokepc.net)
 
-[![Check Code Quality](https://github.com/itsjavi/supereffective.gg/actions/workflows/quality.yml/badge.svg)](https://github.com/itsjavi/supereffective.gg/actions/workflows/quality.yml)
 [![wakatime](https://wakatime.com/badge/user/f2eacdee-569c-4e49-b11f-81a764fb575e/project/838d78e4-9190-4513-9c76-0e7672feab70.svg)](https://wakatime.com/badge/user/f2eacdee-569c-4e49-b11f-81a764fb575e/project/838d78e4-9190-4513-9c76-0e7672feab70)
 
-Source code for supereffective.gg 's website.
+Source code for SuperEffective's website.
 
-Data can be found in https://github.com/itsjavi/supereffective.gg/tree/main/src/lib/data-client
+Data can be found in https://github.com/itsjavi/supereffective/tree/main/src/lib/data-client
 
 ## Prerequisites
 
@@ -73,8 +72,8 @@ This project is a NextJS application with the following directory structure:
 
 Contributions are welcome! Please read the [contributing guidelines](./CONTRIBUTING.md) before submitting a PR.
 
-- [Dataset](https://github.com/itsjavi/supereffective.gg/tree/main/src/lib/data-client)
-- [Issue Reports and Tracking](https://github.com/itsjavi/supereffective.gg/issues)
+- [Dataset](https://github.com/itsjavi/supereffective/tree/main/src/lib/data-client)
+- [Issue Reports and Tracking](https://github.com/itsjavi/supereffective/issues)
 - [Feedback and Project Roadmap](https://supeffective.canny.io)
 
 For other questions and topics, please use our [Discord server](https://discord.gg/3fRXQFtrkN)
@@ -82,7 +81,7 @@ For other questions and topics, please use our [Discord server](https://discord.
 ### Submitting changes to the dataset
 
 The data used in this project can be found as
-[minified JSON files](https://github.com/itsjavi/supereffective.gg/tree/main/src/lib/data-client) in the
+[minified JSON files](https://github.com/itsjavi/supereffective/tree/main/src/lib/data-client) in the
 `src/lib/data-client` folder of the project. Feel free to report data issues, suggest improvements and changes, or
 submit a pull request with the changes or fixes.
 

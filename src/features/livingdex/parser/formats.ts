@@ -8,7 +8,7 @@ livingdexFormats.set('v4', format_v4 as LivingDexDocSpecConfig)
 export function getLivingDexFormat(format: LivingDexDocSpecVersion): LivingDexDocSpecConfig {
   const formatConfig = livingdexFormats.get(format)
   if (!formatConfig) {
-    throw new Error('Incompatible Living Dex format: ' + format, errors.LIVINGDEX.INVALID_FORMAT)
+    throw new Error('Incompatible Livingdex format: ' + format, errors.LIVINGDEX.INVALID_FORMAT)
   }
 
   return formatConfig

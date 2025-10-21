@@ -1,10 +1,10 @@
 import config from '@/config'
 import { PropsOf } from '@/lib/utils/types'
-import { AtSignIcon } from 'lucide-react'
 
 import { ExternLink } from '../Links'
+import { BlueskyIcon, DiscordIcon, GithubIcon } from './icons-brands'
 
-export function TwitterLinkIcon({
+export function BlueskyLinkIcon({
   className,
   children,
   ...rest
@@ -13,10 +13,8 @@ export function TwitterLinkIcon({
   children?: any
 } & PropsOf<'a'>) {
   return (
-    <ExternLink href={config.links.twitter} title="Threads and Instagram" {...rest}>
-      <i>
-        <AtSignIcon width={22} height={22} />
-      </i>
+    <ExternLink href={config.links.bluesky} title="Bluesky" {...rest}>
+      <BlueskyIcon width={22} height={22} />
       {children}
     </ExternLink>
   )
@@ -32,7 +30,7 @@ export function DiscordLinkIcon({
 } & PropsOf<'a'>) {
   return (
     <ExternLink href={config.links.discord} title="Discord" {...rest}>
-      <i className="icon-brand-discord" />
+      <DiscordIcon width={22} height={22} />
       {children}
     </ExternLink>
   )
@@ -48,7 +46,7 @@ export function GithubLinkIcon({
 } & PropsOf<'a'>) {
   return (
     <ExternLink href={config.links.github_org} title="Github" {...rest}>
-      <i className="icon-brand-github" />
+      <GithubIcon width={22} height={22} />
       {children}
     </ExternLink>
   )

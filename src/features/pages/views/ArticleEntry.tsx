@@ -223,7 +223,7 @@ export function ArticlePage(props: ArticlePageProps) {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'SuperEffective.gg',
+      name: 'PokéPC Classic',
       logo: {
         '@type': 'ImageObject',
         url: 'https://classic.pokepc.net/images/logo/logo.png',

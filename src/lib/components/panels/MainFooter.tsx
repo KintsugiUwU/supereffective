@@ -2,7 +2,7 @@ import config from '@/config'
 
 import CannyFeedbackLinkV3 from '../CannyFeedbackLinkV3'
 import { ExternLink, SiteLink } from '../Links'
-import { DiscordLinkIcon, GithubLinkIcon, TwitterLinkIcon } from '../icons/brand-icons'
+import { BlueskyLinkIcon, DiscordLinkIcon, GithubLinkIcon } from '../icons/icons-links'
 import { LogoWhite } from '../layout/LogoWhite'
 import styles from './MainFooter.module.css'
 
@@ -20,7 +20,7 @@ export default function MainFooter() {
           <p className={titleClass}>Sections</p>
           <ul>
             <li>
-              <SiteLink href="/apps/livingdex">Living Dex</SiteLink>
+              <SiteLink href="/apps/livingdex">Livingdex</SiteLink>
             </li>
             <li>
               <SiteLink href="/apps/pokedex">PokéDex</SiteLink>
@@ -82,7 +82,7 @@ export default function MainFooter() {
           <p className={titleClass}>Follow Us</p>
           <ul>
             <li className={styles.socialList}>
-              <TwitterLinkIcon className={styles.brandLink} />
+              <BlueskyLinkIcon className={styles.brandLink} />
               <DiscordLinkIcon className={styles.brandLink} />
               <GithubLinkIcon className={styles.brandLink} />
             </li>
@@ -92,7 +92,7 @@ export default function MainFooter() {
 
       <section className={styles.legalBanner}>
         <i>
-          &copy; {currentYear} SuperEffective.GG . This is a fan site and is not affiliated with The Pokémon Company
+          &copy; {currentYear} PokéPC Classic . This is a fan site and is not affiliated with The Pokémon Company
           International, Game Freak or &copy; Nintendo.
         </i>
       </section>

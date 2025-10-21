@@ -146,11 +146,11 @@ export const DexSocialLinks = ({
   const dexLink = `/apps/livingdex/${dexId}`
 
   const ownerText =
-    "Check out all Pokémon I have on my Living Dex, created with supereffective.gg 's" +
+    "Check out all Pokémon I have on my Livingdex, created with PokéPC's" +
     ' Living Pokédex Organizer app. #LivingDex #PokedexTracker #Pokemon #PokemonHOME #PokemonScarletViolet'
 
   const nonOwnerText =
-    "Check out this Living Dex, created with supereffective.gg 's" +
+    "Check out this Livingdex, created with PokéPC's" +
     ' Living Pokédex Organizer app. #LivingDex #PokedexTracker #Pokemon #PokemonHOME #PokemonScarletViolet'
 
   return (

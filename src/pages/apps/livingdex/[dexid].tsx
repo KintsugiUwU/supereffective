@@ -14,8 +14,8 @@ import { deserializeObject, serializeObject } from '@/lib/utils/serialization/js
 
 const Page = ({ dexData, presets }: { dexData: any; presets: PresetDexMap }) => {
   const dex = deserializeObject<LoadedDex>(dexData)
-  const metaTitle = `${dex.title} | Supereffective.gg Pokédex Tracker`
-  const metaDescription = `${dex.title}, a Pokémon Living Dex created with Supereffective's Living Pokédex Tracker app. Caught ${dex.caughtRegular} / ${dex.totalRegular}.`
+  const metaTitle = `${dex.title} | PokéPC Classic Pokédex Tracker`
+  const metaDescription = `${dex.title}, a Pokémon Livingex created with Supereffective's Livingdex Tracker app. Caught ${dex.caughtRegular} / ${dex.totalRegular}.`
   const gameSet = getGameSetByGameId(dex.gameId)
   const gameSetId = gameSet.id
 

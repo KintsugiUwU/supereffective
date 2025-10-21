@@ -8,7 +8,7 @@ export default function Page() {
     <>
       <div className={'page-container'}>
         <PageMeta
-          metaTitle={'Verification sent - Supereffective.gg'}
+          metaTitle={'Verification sent - PokéPC Classic'}
           metaDescription={''}
           robots={'noindex, nofollow'}
           canonicalUrl={abs_url('/auth/signin-sent')}

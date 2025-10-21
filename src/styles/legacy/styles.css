@@ -6,3 +6,15 @@
 @import '../../../public/fonts/PokeGlyphs/PokeGlyphs.css';
 @import 'icons-legacy.css';
 @import 'misc-legacy.css';
+
+.flex-preset-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}

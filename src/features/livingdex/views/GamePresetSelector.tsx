@@ -69,14 +69,14 @@ export const GamePresetSelector = ({ resolvedLimits }: { resolvedLimits: LivingD
       <div className={'inner-container bg-blueberry-darker'}>
         <h2>
           <i className={'icon-pkg-box-home'} />
-          Create a new Living Pokédex
+          Create a new Livingdex
         </h2>
-        <b>Select a game and then a preset</b> for your Living Pokédex. You can select any of them to take a quick look
-        and come back if you want to change your mind. Changes won't be saved until you hit the "Save" button.
+        <b>Select a game and then a preset</b> for your Livingdex. You can select any of them to take a quick look and
+        come back if you want to change your mind. Changes won't be saved until you hit the "Save" button.
         <br />
         <br />
         <p>
-          You can currently create <b>{resolvedLimits.remainingDexes}</b> more Living Pokédexes.
+          You can currently create <b>{resolvedLimits.remainingDexes}</b> more Livingdexes.
         </p>
       </div>
       <div className={styles.selector + ' inner-container bg-blueberry-darker'}>

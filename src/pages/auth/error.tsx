@@ -29,7 +29,7 @@ export default function Page() {
     <>
       <div className={'page-container'}>
         <PageMeta
-          metaTitle={'Sign In error - Supereffective.gg'}
+          metaTitle={'Sign In error - PokéPC Classic'}
           metaDescription={''}
           robots={'noindex, nofollow'}
           canonicalUrl={abs_url('/auth/error')}
