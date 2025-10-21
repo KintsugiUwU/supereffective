@@ -2,10 +2,10 @@ import z18, { z } from 'zod'
 
 // src/constants.ts
 var PKM_LATEST_GENERATION = 9
-var PKM_LATEST_GAMESET = 'sv'
-var PKM_LATEST_REGION = 'paldea'
-var PKM_LATEST_POKEDEX = 'paldea'
-var PKM_SWITCH_GAMESET_IDS = ['lgpe', 'swsh', 'bdsp', 'la', 'sv']
+var PKM_LATEST_GAMESET = 'lza'
+var PKM_LATEST_REGION = 'kalos'
+var PKM_LATEST_POKEDEX = 'kalos-lumiose'
+var PKM_SWITCH_GAMESET_IDS = ['lgpe', 'swsh', 'bdsp', 'la', 'sv', 'lza']
 
 // data/characteristics.json
 var characteristics_default = [

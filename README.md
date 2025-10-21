@@ -85,21 +85,14 @@ The data used in this project can be found as
 `src/lib/data-client` folder of the project. Feel free to report data issues, suggest improvements and changes, or
 submit a pull request with the changes or fixes.
 
-In order to edit a minified JSON file, you will have to beautify it first, edit your changes, and then minify it again.
+Basic instructions:
 
-For that you can use these commands:
-
-- `pnpm run json:minify <filename>` to minify the JSON files
-- `pnpm run json:unminify <filename>` to convert the JSON files to a more readable format
-
-Example:
-
-```bash
-pnpm run json:unminify src/lib/data-client/pokemon/legacy-pokemon.min.json
-pnpm run json:minify src/lib/data-client/pokemon/legacy-pokemon.json
-```
-
-Before submitting a pull request, make sure that the `.min.json` files are updated and minified.
+- Edit/add games: the will need to be added in `legacy-games.json` and `legacy-gamesets.json` (if needed), with all the
+  necessary data.
+- Edit/add Pokémon: the will need to be added in `legacy-pokemon.json` and then minified to `legacy-pokemon.min.json`.
+- Edit/add Box Presets: the will need to be added in `box-presets/by-gameset` and then bundled to
+  `box-presets/legacy-boxpresets.min.json` by calling `npx -y tsx run src/lib/data-client/box-presets/join-presets.ts`
+  or `bun run src/lib/data-client/box-presets/join-presets.ts`.
 
 ## License
 

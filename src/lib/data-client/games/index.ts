@@ -1,6 +1,6 @@
 import createMemoizedCallback from '@/lib/utils/caching/createMemoizedCallback'
 
-import rawEntriesJson from './legacy-games.min.json'
+import rawEntriesJson from './legacy-games.json'
 import { LegacyGame, LegacyGameDict } from './types'
 
 export { getGameIds as getSupportedGameIds }
@@ -11,7 +11,7 @@ function fetchRawEntries() {
   const data = rawEntriesJson
 
   if (!Array.isArray(data)) {
-    const err = 'Fetch failed for legacy-games.min.json: Response was not an array'
+    const err = 'Fetch failed for legacy-games.json: Response was not an array'
     console.error(err, data)
     throw new Error(err)
   }
