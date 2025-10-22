@@ -24,7 +24,7 @@ const appConfig = {
     bluesky: 'https://bsky.app/profile/pokepc.net',
     patreon: 'https://www.patreon.com/supereffective',
     github: 'https://github.com/itsjavi',
-    github_org: 'https://github.com/supeffective',
+    github_org: 'https://github.com/itsjavi/supereffective',
     github_site: 'https://github.com/itsjavi/supereffective',
     issue_report: 'https://github.com/itsjavi/supereffective/issues',
     roadmap: 'https://supereffective.canny.io',

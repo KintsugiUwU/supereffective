@@ -32,6 +32,7 @@ import { useScrollToLocation } from '@/lib/hooks/useScrollToLocation'
 import { slugify } from '@/lib/utils/strings'
 
 import appConfig from '@/config'
+import { SearchIcon } from 'lucide-react'
 import { PkBoxGroup } from '../components/pkm-box/PkBoxGroup'
 import { PkBoxGroupShinyMixed } from '../components/pkm-box/PkBoxGroupShinyMixed'
 import { MarkType, SelectMode, ViewMode } from '../components/pkm-box/pkBoxTypes'
@@ -796,7 +797,7 @@ export default function LivingDexApp({ loadedDex, presets, onSave }: LivingDexAp
                   data-flow="bottom"
                   href={'/apps/livingdex/missing#g-' + dex.gameId}
                 >
-                  <i className={'icon-pkg-wild'} />
+                  <SearchIcon />
                 </SiteLink>
               </ToolbarButton>
             </ToolbarButtonGroup>

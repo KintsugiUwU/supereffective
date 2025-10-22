@@ -5576,9 +5576,6 @@ function alpha3ToPokeLang(alpha3) {
   }
   throw new Error(`Invalid Pokemon alpha3 language code: ${alpha3}`)
 }
-function getSourceCodeUrl(path, branch = 'main', project = 'dataset') {
-  return `https://github.com/supeffective/${project}/blob/${branch}/${path}`
-}
 
 export {
   abilitySchema,
@@ -5601,7 +5598,6 @@ export {
   getPokedexDataPath,
   getPokemonDataPath,
   getPokemonTextDataPath,
-  getSourceCodeUrl,
   hexColorSchema,
   itemCategorySchema,
   itemSchema,
