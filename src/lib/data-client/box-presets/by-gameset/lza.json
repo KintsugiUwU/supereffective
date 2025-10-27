@@ -381,6 +381,7 @@
           "diggersby",
           "scatterbug",
           "spewpa",
+          "vivillon-meadow",
           "weedle",
           "kakuna",
           "beedrill",
@@ -393,13 +394,13 @@
           "patrat",
           "watchog",
           "budew",
-          "roselia",
-          "roserade"
+          "roselia"
         ]
       },
       {
         "title": "Box 2",
         "pokemon": [
+          "roserade",
           "magikarp",
           "gyarados",
           "binacle",
@@ -428,13 +429,13 @@
           "raichu-alola",
           "cleffa",
           "clefairy",
-          "clefable",
-          "spinarak"
+          "clefable"
         ]
       },
       {
         "title": "Box 3",
         "pokemon": [
+          "spinarak",
           "ariados",
           "ekans",
           "arbok",
@@ -463,13 +464,13 @@
           "medicham",
           "electrike",
           "manectric",
-          "ralts",
-          "kirlia"
+          "ralts"
         ]
       },
       {
         "title": "Box 4",
         "pokemon": [
+          "kirlia",
           "gardevoir",
           "gallade",
           "houndour",
@@ -498,13 +499,13 @@
           "vanillish",
           "vanilluxe",
           "numel",
-          "camerupt",
-          "hippopotas"
+          "camerupt"
         ]
       },
       {
         "title": "Box 5",
         "pokemon": [
+          "hippopotas",
           "hippowdon",
           "drilbur",
           "excadrill",
@@ -533,13 +534,13 @@
           "sharpedo",
           "tynamo",
           "eelektrik",
-          "eelektross",
-          "dratini"
+          "eelektross"
         ]
       },
       {
         "title": "Box 6",
         "pokemon": [
+          "dratini",
           "dragonair",
           "dragonite",
           "bulbasaur",
@@ -568,13 +569,13 @@
           "glalie",
           "froslass",
           "snover",
-          "abomasnow",
-          "bergmite"
+          "abomasnow"
         ]
       },
       {
         "title": "Box 7",
         "pokemon": [
+          "bergmite",
           "avalugg",
           "scyther",
           "scizor",
@@ -603,13 +604,13 @@
           "lairon",
           "aggron",
           "helioptile",
-          "heliolisk",
-          "pumpkaboo"
+          "heliolisk"
         ]
       },
       {
         "title": "Box 8",
         "pokemon": [
+          "pumpkaboo",
           "pumpkaboo-small",
           "pumpkaboo-large",
           "pumpkaboo-super",
@@ -638,13 +639,13 @@
           "drampa",
           "beldum",
           "metang",
-          "metagross",
-          "xerneas"
+          "metagross"
         ]
       },
       {
         "title": "Box 9",
         "pokemon": [
+          "xerneas",
           "yveltal",
           "zygarde",
           "zygarde-10",
@@ -868,7 +869,7 @@
           "scizor",
           "pinsir",
           "heracross",
-          "emolga",
+          "emolga"
         ]
       },
       {
@@ -903,7 +904,7 @@
           "pupitar",
           "tyranitar",
           "froakie",
-          "frogadier",
+          "frogadier"
         ]
       },
       {
