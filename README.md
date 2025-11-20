@@ -74,9 +74,9 @@ Contributions are welcome! Please read the [contributing guidelines](./CONTRIBUT
 
 - [Dataset](https://github.com/itsjavi/supereffective/tree/main/src/lib/data-client)
 - [Issue Reports and Tracking](https://github.com/itsjavi/supereffective/issues)
-- [Feedback and Project Roadmap](https://supeffective.canny.io)
+- [Feedback and Project Roadmap](https://pokepc.net/feedback)
 
-For other questions and topics, please use our [Discord server](https://discord.gg/3fRXQFtrkN)
+For other questions and topics, please use our [Discord server](https://discord.com/invite/3fRXQFtrkN)
 
 ### Submitting changes to the dataset
 

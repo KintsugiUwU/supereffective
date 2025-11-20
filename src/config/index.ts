@@ -27,10 +27,10 @@ const appConfig = {
     github_org: 'https://github.com/itsjavi/supereffective',
     github_site: 'https://github.com/itsjavi/supereffective',
     issue_report: 'https://github.com/itsjavi/supereffective/issues',
-    roadmap: 'https://supereffective.canny.io',
-    feedback: 'https://supereffective.canny.io/feature-requests',
-    changelog: 'https://supereffective.canny.io',
-    discord: 'https://discord.gg/3fRXQFtrkN',
+    roadmap: 'https://pokepc.net/roadmap',
+    feedback: 'https://pokepc.net/feedback',
+    changelog: 'https://pokepc.net/changelog',
+    discord: 'https://discord.com/invite/3fRXQFtrkN',
     paypal_donate: 'https://www.paypal.me/itsjavidotcom/10',
     legacy_account_recovery_form: 'https://forms.gle/HxnV3qCs1UWJn7Tc6',
   },
@@ -38,8 +38,6 @@ const appConfig = {
     oauthRedirectUrl: `${getBaseUrl()}/api/callbacks/patreon`,
     webhookCallbackUrl: `${getBaseUrl()}/api/webhooks/patreon`,
   },
-  cannyAppId: '66058d26d14939da879a83e8',
-  cannyUrl: 'https://supereffective.canny.io',
   assets: {
     // version: ASSETS_CACHE_VERSION,
     getPokeImgVersion(nid: string): string {

@@ -1,6 +1,5 @@
 import config from '@/config'
 
-import CannyFeedbackLinkV3 from '../CannyFeedbackLinkV3'
 import { ExternLink, SiteLink } from '../Links'
 import { BlueskyLinkIcon, DiscordLinkIcon, GithubLinkIcon } from '../icons/icons-links'
 import { LogoWhite } from '../layout/LogoWhite'
@@ -54,12 +53,14 @@ export default function MainFooter() {
               <SiteLink href="/license">Project Licenses</SiteLink>
             </li>
             <li>
-              <ExternLink href={config.cannyUrl} title={''}>
+              <ExternLink href={config.links.feedback} title={''}>
                 <span>Report an issue</span>
               </ExternLink>
             </li>
             <li>
-              <CannyFeedbackLinkV3 />
+              <ExternLink href={config.links.roadmap} title={''}>
+                <span>Roadmap</span>
+              </ExternLink>
             </li>
           </ul>
         </div>
