@@ -1,8 +1,8 @@
 import { ReactElement, useEffect, useRef, useState } from 'react'
 
 import config from '@/config'
-import { createBoxTitle } from '@/features/livingdex/repository/presets/createBoxTitle'
-import { DexBox, DexPokemonList, LoadedDex, NullableDexPokemon, PkFilter } from '@/features/livingdex/repository/types'
+import { createBoxTitle } from '@/features/livingdex/services/presets/createBoxTitle'
+import { DexBox, DexPokemonList, LoadedDex, NullableDexPokemon, PkFilter } from '@/features/livingdex/services/types'
 import Button from '@/lib/components/Button'
 import { getGameSetByGameId } from '@/lib/data-client/game-sets'
 import { getPokemonEntry } from '@/lib/data-client/pokemon'

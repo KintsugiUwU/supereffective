@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import PageMeta from '@/features/pages/components/PageMeta'
+import PageMeta from '@/features/prose/components/PageMeta'
 import { abs_url } from '@/lib/components/Links'
 
 const page = () => {

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 import { GameLogo } from '@/features/livingdex/components/GameLogo'
-import { LoadedDex } from '@/features/livingdex/repository/types'
+import { LoadedDex } from '@/features/livingdex/services/types'
 import { getGameSetByGameId } from '@/lib/data-client/game-sets'
 import { classNameIf, classNames } from '@/lib/utils/deprecated'
 

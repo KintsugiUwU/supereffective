@@ -3,13 +3,13 @@ import { LivingDex } from '@prisma/client'
 import { migratePokemonId } from '@/lib/data-client/migrations'
 import { SerializableDate } from '@/lib/utils/serialization/jsonSerializable'
 
+import { getGameSetByGameId } from '@/lib/data-client/game-sets'
+import { getPokemonEntry, isShinyLocked } from '@/lib/data-client/pokemon'
 import { getLivingDexFormat, parseLivingDex, serializeLivingDex } from '.'
-import { getGameSetByGameId } from '../../../lib/data-client/game-sets'
-import { getPokemonEntry, isShinyLocked } from '../../../lib/data-client/pokemon'
-import { convertPokemonListToStorable } from '../repository/converters/convertPokemonListToStorable'
-import { getPresetByIdForGameSet, getPresets } from '../repository/presets'
-import { normalizeDexWithPreset } from '../repository/presets/normalizeDexWithPreset'
-import { DEX_SCHEMA_VERSION, DexBox, LoadedDex, NullableDexPokemon, StorableDex } from '../repository/types'
+import { convertPokemonListToStorable } from '../converters/convertPokemonListToStorable'
+import { getPresetByIdForGameSet, getPresets } from '../presets'
+import { normalizeDexWithPreset } from '../presets/normalizeDexWithPreset'
+import { DEX_SCHEMA_VERSION, DexBox, LoadedDex, NullableDexPokemon, StorableDex } from '../types'
 import {
   DeserializedLivingDexDoc,
   LIVINGDEX_DOC_SPEC_VERSION_LAST,

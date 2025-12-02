@@ -6,8 +6,8 @@ import { ButtonLink } from '@/lib/components/Button'
 import { abs_url } from '@/lib/components/Links'
 import { classNameIf, classNames } from '@/lib/utils/deprecated'
 
-import PageMeta, { PageMetaProps } from '../components/PageMeta'
 import styles from './ArticleEntry.module.css'
+import PageMeta, { PageMetaProps } from './PageMeta'
 
 export interface CmsImage {
   url: string

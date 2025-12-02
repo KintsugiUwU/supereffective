@@ -1,5 +1,5 @@
-import PageMeta from '@/features/pages/components/PageMeta'
-import { ProfileView } from '@/features/users/views/ProfileView'
+import PageMeta from '@/features/prose/components/PageMeta'
+import { ProfileView } from '@/features/users/components/ProfileView'
 import { abs_url } from '@/lib/components/Links'
 
 const Page = () => {

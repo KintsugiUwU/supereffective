@@ -5,9 +5,9 @@ import { ApiResponse, apiErrors } from '@/lib/utils/types'
 import { isValidIdSchema } from '@/lib/validation/schemas'
 
 import { AuthUserState, SessionMembership } from '@/features/users/auth/types'
-import { getLegacyLivingDexRepository } from '../repository/index'
-import { LoadedDexSchema } from '../repository/schemas'
-import { LoadedDex, NullableDexPokemon } from '../repository/types'
+import { getLegacyLivingDexRepository } from '../index'
+import { LoadedDexSchema } from '../schemas'
+import { LoadedDex, NullableDexPokemon } from '../types'
 
 async function _canCreateMoreDexes(dexes: LoadedDex[], membership: SessionMembership | null): Promise<boolean> {
   const limits = await getLegacyLivingDexRepository().getLimitsForUser(membership)

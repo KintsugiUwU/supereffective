@@ -1,8 +1,8 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 
 import { cacheConfig } from '@/config/cache'
-import { getDexesApi } from '@/features/livingdex/commands/getDexesApi'
-import { saveDexApi } from '@/features/livingdex/commands/saveDexApi'
+import { getDexesApi } from '@/features/livingdex/services/commands/getDexesApi'
+import { saveDexApi } from '@/features/livingdex/services/commands/saveDexApi'
 import { apiGuard } from '@/features/users/auth/serverside/apiGuard'
 import { getSession } from '@/features/users/auth/serverside/getSession'
 import { AuthUser, AuthUserState } from '@/features/users/auth/types'

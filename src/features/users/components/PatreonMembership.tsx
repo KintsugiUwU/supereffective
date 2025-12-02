@@ -4,7 +4,7 @@ import { hasPatreonFeaturesEnabled } from '@/config/featureFlags'
 import { patreonTiers } from '@/config/patreon'
 import { useSession } from '@/features/users/auth/hooks/useSession'
 import { UserRestrictedArea } from '@/lib/components/panels/UserRestrictedArea'
-import { createSessionMembershipPlaceholder } from '../repository/createMembershipPlaceholder'
+import { createSessionMembershipPlaceholder } from '../services/createMembershipPlaceholder'
 
 import { PatreonButton, PatreonUnlinkButton } from '../components/PatreonButtons'
 

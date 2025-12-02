@@ -1,4 +1,4 @@
-import { hasTooManyValidVerificationTokens } from '@/features/users/repository/getUser'
+import { hasTooManyValidVerificationTokens } from '@/features/users/services/getUser'
 import { sendMail } from '@/lib/mailer/sendMail'
 import { EmailMessage } from '@/lib/mailer/types'
 import { base64Encode } from '@/lib/utils/serialization/base64'

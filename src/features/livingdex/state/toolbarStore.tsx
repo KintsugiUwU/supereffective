@@ -2,7 +2,7 @@ import { NextRouter } from 'next/router'
 import { create } from 'zustand'
 import { devtools } from 'zustand/middleware'
 
-import { LoadedDex } from '@/features/livingdex/repository/types'
+import { LoadedDex } from '@/features/livingdex/services/types'
 import { isDevelopmentEnv } from '@/lib/utils/env'
 import { getSearchParams, setNextRouterQueryParam } from '@/lib/utils/query-string'
 

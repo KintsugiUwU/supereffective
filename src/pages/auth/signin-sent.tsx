@@ -1,6 +1,6 @@
 // ?provider=email&type=email
 
-import PageMeta from '@/features/pages/components/PageMeta'
+import PageMeta from '@/features/prose/components/PageMeta'
 import { abs_url } from '@/lib/components/Links'
 
 export default function Page() {

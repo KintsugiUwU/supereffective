@@ -1,6 +1,6 @@
 import { ZodType, z } from 'zod'
 
-import { slugSchema } from '../../../lib/validation/schemas'
+import { slugSchema } from '@/lib/validation/schemas'
 import errors from './errors'
 import {
   LIVINGDEX_DOC_SPEC_PROP_TYPES,

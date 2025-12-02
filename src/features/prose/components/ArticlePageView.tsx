@@ -1,12 +1,12 @@
 import React from 'react'
 
-import { Entry, EntryType } from '@/features/pages/repository/types'
+import { Entry, EntryType } from '@/features/prose/services/types'
 import { LoadingBanner } from '@/lib/components/panels/LoadingBanner'
 import { cleanupSpaces as clean } from '@/lib/utils/strings'
 import { getFullUrl } from '@/lib/utils/urls'
 
-import MDXContent from '../components/MDXContent'
 import { ArticlePage } from './ArticleEntry'
+import MDXContent from './MDXContent'
 
 export type ArticlePageViewProps = {
   entry: Entry | null

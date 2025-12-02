@@ -1,7 +1,7 @@
 import { PATREON_NO_TIER } from '@/config/patreon'
-import { dexToLoadedDex, loadedDexToDex, sanitizeDate } from '@/features/livingdex/parser/support'
 import createMemoizedCallback from '@/lib/utils/caching/createMemoizedCallback'
 import { PrismaTypes, getPrismaClient } from '@/prisma/getPrismaClient'
+import { dexToLoadedDex, loadedDexToDex, sanitizeDate } from './parser/support'
 
 import { SessionMembership } from '@/features/users/auth/types'
 import { isShinyLocked } from '../../../lib/data-client/pokemon'

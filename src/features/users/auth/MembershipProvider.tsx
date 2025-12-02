@@ -1,6 +1,6 @@
 import { Membership } from '@prisma/client'
 import { createContext, useContext } from 'react'
-import { createMembershipPlaceholder } from '../repository/createMembershipPlaceholder'
+import { createMembershipPlaceholder } from '../services/createMembershipPlaceholder'
 
 const defaultMembership = createMembershipPlaceholder('')
 const MembershipContext = createContext<Membership>(defaultMembership)

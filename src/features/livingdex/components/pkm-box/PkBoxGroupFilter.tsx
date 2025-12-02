@@ -1,4 +1,4 @@
-import { PkFilter, PkFilterAttribute } from '@/features/livingdex/repository/types'
+import { PkFilter, PkFilterAttribute } from '@/features/livingdex/services/types'
 import { TextInput } from '@/lib/components/forms/TextInput'
 
 import styles from './PkBoxGroupFilter.module.css'

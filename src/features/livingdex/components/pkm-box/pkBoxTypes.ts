@@ -1,4 +1,4 @@
-import { DexBox, LoadedDex, NullableDexPokemon, PkFilter } from '@/features/livingdex/repository/types'
+import { DexBox, LoadedDex, NullableDexPokemon, PkFilter } from '@/features/livingdex/services/types'
 
 export type SelectMode = 'all' | 'box' | 'cell'
 export type ViewMode = 'boxed' | 'listed'

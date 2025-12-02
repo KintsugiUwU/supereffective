@@ -3,7 +3,7 @@ import { NextApiRequest, NextApiResponse } from 'next'
 import { Routes } from '@/config/routes'
 import { apiGuard } from '@/features/users/auth/serverside/apiGuard'
 import { getSession } from '@/features/users/auth/serverside/getSession'
-import { removePatreonMembership } from '@/features/users/repository/memberships'
+import { removePatreonMembership } from '@/features/users/services/memberships'
 import { apiErrors } from '@/lib/utils/types'
 
 const unlinkPatreonAccount = async (

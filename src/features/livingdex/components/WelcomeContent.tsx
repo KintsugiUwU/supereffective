@@ -1,4 +1,4 @@
-import { legacyCanCreateMoreDexes } from '@/features/livingdex/repository'
+import { legacyCanCreateMoreDexes } from '@/features/livingdex/services'
 import { ButtonInternalLink } from '@/lib/components/Button'
 import { useScrollToLocation } from '@/lib/hooks/useScrollToLocation'
 

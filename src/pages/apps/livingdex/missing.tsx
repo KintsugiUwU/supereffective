@@ -1,4 +1,4 @@
-import MissingPokemonView from '@/features/livingdex/views/MissingPokemonView'
+import MissingPokemonView from '@/features/livingdex/components/MissingPokemonView'
 import LivingDexLayout from '@/lib/components/layout/LivingDexLayout'
 
 const Page = () => {

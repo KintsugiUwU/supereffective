@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
 import { GameCardList } from '@/features/livingdex/components/GameCard'
-import { LivingDexResolvedUserLimits } from '@/features/livingdex/repository/types'
+import { WelcomeContent } from '@/features/livingdex/components/WelcomeContent'
+import { LivingDexResolvedUserLimits } from '@/features/livingdex/services/types'
 import { useDexesContext } from '@/features/livingdex/state/LivingDexListContext'
-import { WelcomeContent } from '@/features/livingdex/views/WelcomeContent'
 import { useSession } from '@/features/users/auth/hooks/useSession'
 import { ButtonInternalLink } from '@/lib/components/Button'
 import { LoadingBanner } from '@/lib/components/panels/LoadingBanner'

@@ -1,5 +1,5 @@
-import { getPageRepository } from '@/features/pages/repository/getPageRepository'
-import ArticlePageView, { ArticlePageViewProps } from '@/features/pages/views/ArticlePageView'
+import ArticlePageView, { ArticlePageViewProps } from '@/features/prose/components/ArticlePageView'
+import { getPageRepository } from '@/features/prose/services/getPageRepository'
 
 export async function getStaticProps() {
   return getPageRepository().getStaticProps('index', 60 * 15)

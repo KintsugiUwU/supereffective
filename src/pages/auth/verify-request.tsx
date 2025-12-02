@@ -1,7 +1,7 @@
 import { useRouter } from 'next/compat/router'
 
 import { Routes } from '@/config/routes'
-import PageMeta from '@/features/pages/components/PageMeta'
+import PageMeta from '@/features/prose/components/PageMeta'
 import { useSession } from '@/features/users/auth/hooks/useSession'
 import { ButtonLink } from '@/lib/components/Button'
 import { abs_url } from '@/lib/components/Links'

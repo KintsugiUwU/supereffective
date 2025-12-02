@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 import config from '@/config'
-import { UserTrayView } from '@/features/users/views/UserTrayView'
+import { UserTrayView } from '@/features/users/components/UserTrayView'
 
 import { HandHeartIcon } from 'lucide-react'
 import { SiteLink } from '../Links'
