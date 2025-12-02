@@ -9,6 +9,7 @@ import { PageEntry } from '@/features/prose/services/types'
 import { getSession } from '@/features/users/auth/serverside/getSession'
 import LivingDexLayout from '@/lib/components/layout/LivingDexLayout'
 import { abs_url } from '@/lib/components/Links'
+import { NewVersionBanner } from '@/lib/components/NewVersionBanner'
 import { LoadingBanner } from '@/lib/components/panels/LoadingBanner'
 
 const Page = ({ entry, limits }: { entry: PageEntry | null; limits: LivingDexResolvedUserLimits }) => {
@@ -31,6 +32,7 @@ const Page = ({ entry, limits }: { entry: PageEntry | null; limits: LivingDexRes
           <Dashboard limits={limits} />
         </>
       </div>
+      <NewVersionBanner href="https://pokepc.net/games" title="Go to the new version" />
     </LivingDexLayout>
   )
 }

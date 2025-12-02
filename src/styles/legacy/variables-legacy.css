@@ -165,6 +165,7 @@
 
   /* CHAMPIONS */
   --color-champions-lime: #c0e901;
+  --color-champions-lime-semi: hsla(71, 99%, 46%, 0.85);
 }
 
 .bg-blueberry-dark {

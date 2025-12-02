@@ -17,6 +17,7 @@ import { getSession } from '@/features/users/auth/serverside/getSession'
 import { ButtonInternalLink } from '@/lib/components/Button'
 import LivingDexLayout from '@/lib/components/layout/LivingDexLayout'
 import { abs_url } from '@/lib/components/Links'
+import { NewVersionBanner } from '@/lib/components/NewVersionBanner'
 import { LoadingBanner } from '@/lib/components/panels/LoadingBanner'
 import { UnauthenticatedBanner } from '@/lib/components/panels/UnauthenticatedBanner'
 import { getGameSetByGameId } from '@/lib/data-client/game-sets'
@@ -140,6 +141,7 @@ const Page = ({ selectedGame, selectedPreset, limits }: PageProps) => {
   return (
     <LivingDexLayout>
       <NewDexView selectedGame={selectedGame} selectedPreset={selectedPreset} limits={limits} />
+      <NewVersionBanner href="https://pokepc.net/games" title="Go to the new version" />
     </LivingDexLayout>
   )
 }

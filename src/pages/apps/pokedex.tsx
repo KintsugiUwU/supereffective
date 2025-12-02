@@ -3,6 +3,7 @@ import PageMeta from '@/features/prose/components/PageMeta'
 import { getPageRepository } from '@/features/prose/services/getPageRepository'
 import { PageEntry } from '@/features/prose/services/types'
 import { abs_url } from '@/lib/components/Links'
+import { NewVersionBanner } from '@/lib/components/NewVersionBanner'
 import { LoadingBanner } from '@/lib/components/panels/LoadingBanner'
 import { getPokemonEntries, getPokemonSearchIndex } from '@/lib/data-client/pokemon'
 
@@ -37,6 +38,7 @@ const Page = ({ entry }: { entry: PageEntry | null }) => {
         lang={'en'}
       />
       <Pokedex pokemon={getPokemonEntries()} pokemonSearch={getPokemonSearchIndex()} />
+      <NewVersionBanner href="https://pokepc.net/pokedex" title="Go to the new version" />
     </div>
   )
 }
