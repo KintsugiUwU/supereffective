@@ -19,8 +19,8 @@
     "lint-fix": "pnpm format",
     "prepare": "pnpm prisma generate && sort-package-json",
     "qa": "pnpm quality-checks",
-    "quality-checks": "pnpm quality-checks-nobuild && turbo build",
-    "quality-checks-nobuild": "rm -rf .next && pnpm prisma generate && turbo lint && pnpm test",
+    "quality-checks": "pnpm quality-checks-nobuild && pnpm build",
+    "quality-checks-nobuild": "rm -rf .next && pnpm prisma generate && pnpm lint && pnpm test",
     "start": "next start",
     "test": "jest",
     "typecheck": "tsc --noEmit"
