@@ -26,6 +26,8 @@ const serverVars = z.object({
   // PATREON_CREATOR_ACCESS_TOKEN: z.string(),
   // PATREON_CREATOR_REFRESH_TOKEN: z.string(),
   // PATREON_WEBHOOK_SECRET: z.string(),
+  // admin api
+  ADMIN_API_TOKEN: z.string().optional(),
 })
 
 const clientVars = z.object({})
@@ -54,6 +56,8 @@ const initialEnvVars: InitialProjectEnvVars = {
   // patreon
   PATREON_APP_CLIENT_ID: process.env.PATREON_APP_CLIENT_ID,
   PATREON_APP_CLIENT_SECRET: process.env.PATREON_APP_CLIENT_SECRET,
+  // admin api
+  ADMIN_API_TOKEN: process.env.ADMIN_API_TOKEN,
 }
 
 export const envVars = parseEnvVars<ProjectEnvVars>(initialEnvVars, {
