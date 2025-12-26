@@ -1,0 +1,25 @@
+meta {
+  name: Get LivingDex (Local)
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{url}}/api/admin/livingdexes/zJ5gClTosZaEz5ubmuxO?page=1&pageSize=100
+  body: none
+  auth: inherit
+}
+
+params:query {
+  page: 1
+  pageSize: 100
+}
+
+headers {
+  Authorization: Bearer {{adminApiToken}}
+}
+
+settings {
+  encodeUrl: false
+  timeout: 0
+}

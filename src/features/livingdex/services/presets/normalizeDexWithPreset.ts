@@ -145,7 +145,7 @@ function _matchBoxes(
   })
 
   if (dupesBox.pokemon.length > 0) {
-    console.log('These pokemon do not fit in the current dex: ', dupesBox)
+    console.warn(`A total of ${dupesBox.pokemon.length} pokemon do not fit in the current livingdex.`)
   }
 
   return [newBoxes, dupesBox]

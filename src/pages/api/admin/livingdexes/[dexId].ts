@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 
-import { apiBearerTokenGuard } from '@/features/users/auth/serverside/apiBearerTokenGuard'
 import { getLegacyLivingDexRepository } from '@/features/livingdex/services'
+import { apiBearerTokenGuard } from '@/features/users/auth/serverside/apiBearerTokenGuard'
 import { apiErrors } from '@/lib/utils/types'
 import { isValidIdSchema } from '@/lib/validation/schemas'
 
