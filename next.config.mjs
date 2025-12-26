@@ -51,6 +51,7 @@ const baseConfig = {
       },
       { hostname: 'cdn.pokepc.net' },
       { hostname: 'static-img.pokepc.net' },
+      { hostname: 'static.pokepc.net' },
     ],
     minimumCacheTTL: 60 * 60 * 24 * 7 * 4, // 4 weeks
   },

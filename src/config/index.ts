@@ -1,9 +1,9 @@
 import { isDevelopmentEnv } from '@/lib/utils/env'
 import { getBaseUrl } from '@/lib/utils/urls'
 
-const ASSETS_CACHE_VERSION = '20251217-01'
-const ASSETS_CACHE_VERSION_INCREMENTAL = '20251217-01'
-const assetsCdn = 'https://static-img.pokepc.net'
+const ASSETS_CACHE_VERSION = '20251226-01'
+const ASSETS_CACHE_VERSION_INCREMENTAL = '20251226-01'
+const assetsCdn = 'https://static.pokepc.net'
 
 const appConfig = {
   dev: isDevelopmentEnv(),
