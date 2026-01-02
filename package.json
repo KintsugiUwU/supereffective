@@ -22,7 +22,7 @@
     "quality-checks": "pnpm quality-checks-nobuild && pnpm build",
     "quality-checks-nobuild": "rm -rf .next && pnpm prisma generate && pnpm lint && pnpm test",
     "start": "next start",
-    "test": "jest",
+    "test": "bun test",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
